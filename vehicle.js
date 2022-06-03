@@ -3,10 +3,7 @@ class Vehicle {
     this.dna;
     if (dna) this.dna = dna;
     else
-      this.dna = [
-        3.2471609642516506, 2.723869928893016, 96.06365643514205,
-        65.11632917885916, 2.183975226904412,
-      ];
+      this.dna = calcDNA();
 
     this.position = position;
     this.maxSpeed = this.dna[4];
