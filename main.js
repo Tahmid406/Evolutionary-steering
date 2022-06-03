@@ -13,7 +13,7 @@ function setup() {
   for (let i = 0; i < 50; i++)
     poisons.push(createVector(random(width), random(height)));
 
-  for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 15; i++) {
     vehicles[i] = new Vehicle(createVector(random(width), random(height)));
     vehicles[i].calcTarget(foods);
   }
